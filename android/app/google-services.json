@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1008623998331",
+    "project_id": "minorsem6-229e4",
+    "storage_bucket": "minorsem6-229e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008623998331:android:db58db3e670022ddd519de",
+        "android_client_info": {
+          "package_name": "com.example.minor_sem6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSECHH_UX984uSEk-ECMJJJ1C9vf7U_YA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
