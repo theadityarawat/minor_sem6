@@ -64,6 +64,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1008623998331',
     projectId: 'minorsem6-229e4',
     storageBucket: 'minorsem6-229e4.appspot.com',
+    iosClientId: '1008623998331-1bnhvt2u9v2hr3b1j6sbgkqhtsk5kajq.apps.googleusercontent.com',
     iosBundleId: 'com.example.minorSem6',
   );
 
@@ -73,6 +74,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1008623998331',
     projectId: 'minorsem6-229e4',
     storageBucket: 'minorsem6-229e4.appspot.com',
+    iosClientId: '1008623998331-1bnhvt2u9v2hr3b1j6sbgkqhtsk5kajq.apps.googleusercontent.com',
     iosBundleId: 'com.example.minorSem6',
   );
 
@@ -85,4 +87,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'minorsem6-229e4.appspot.com',
     measurementId: 'G-XRE8DL0XQE',
   );
+
 }

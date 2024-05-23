@@ -24,7 +24,7 @@ class Body extends StatefulWidget {
   @override
   State<Body> createState() => _BodyState();
 }
-
+List<String> items = ['Poha', 'Oats'];
 var progressValue = 06;
 
 class _BodyState extends State<Body> {
@@ -176,8 +176,10 @@ class _BodyState extends State<Body> {
                       ],
                     ),
                   ),
+                  // MealList(mealIds: ['Poha', 'Oats'],),
                   MealList(),
                 ],
+
               ),
             ),
           ),

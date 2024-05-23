@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:minor_sem6/screens/home/home_screen.dart';
 import 'package:minor_sem6/screens/login/login_screen.dart';
 import 'package:minor_sem6/screens/login_success/login_success_screen.dart';
 import '../../../components/start_button.dart';

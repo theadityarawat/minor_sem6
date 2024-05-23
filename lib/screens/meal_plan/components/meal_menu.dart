@@ -23,8 +23,7 @@ class MealMenu extends StatelessWidget {
         height: 150,
         child: TextButton(
           style: TextButton.styleFrom(
-            textStyle: GoogleFonts.dmSans(fontSize: 20, fontWeight: FontWeight.bold),
-            primary: kSecondaryColor,
+            foregroundColor: kSecondaryColor, textStyle: GoogleFonts.dmSans(fontSize: 20, fontWeight: FontWeight.bold),
             padding: EdgeInsets.all(20),
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
@@ -36,7 +35,7 @@ class MealMenu extends StatelessWidget {
               Image.asset(mealPic, width: 90,),
               SizedBox(width: 20),
               Expanded(child: Text(text)),
-              Icon(Icons.arrow_forward_ios),
+              // Icon(Icons.arrow_forward_ios),
             ],
           ),
         ),

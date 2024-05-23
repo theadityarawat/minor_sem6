@@ -25,8 +25,7 @@ class ProfileMenu extends StatelessWidget {
         height: 180, // Set width for each menu item
         child: TextButton(
           style: TextButton.styleFrom(
-            primary: kPrimaryColor,
-            padding: EdgeInsets.zero,
+            foregroundColor: kPrimaryColor, padding: EdgeInsets.zero,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15),
             ),

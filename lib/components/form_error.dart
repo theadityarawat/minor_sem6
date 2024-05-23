@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../size_config.dart';
 
@@ -21,6 +22,7 @@ class FormError extends StatelessWidget {
 
   Row formErrorText({required String error}) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SvgPicture.asset(
           "assets/icons/Error.svg",
@@ -30,7 +32,7 @@ class FormError extends StatelessWidget {
         SizedBox(
           width: getProportionateScreenWidth(10),
         ),
-        Text(error),
+        Text(error, style: GoogleFonts.dmSans(fontSize: 15, fontWeight: FontWeight.w500),),
       ],
     );
   }

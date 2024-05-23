@@ -12,6 +12,7 @@ class Body extends StatelessWidget {
     return SafeArea(
       child: SingleChildScrollView(
         padding: EdgeInsets.symmetric(vertical: 5),
+        // child: MealList(mealIds: ['Poha', 'Oats'],),
         child: MealList(),
       ),
     );
