@@ -1,4 +1,4 @@
-# Fitness App - Diet Plan Generator
+# ZetaFir: the Fitness Diet Plan Generator
 
 Developed and deployed a cross-platform fitness app that generates personalized diet plans based on user metrics. This project integrates Firebase for secure account management, real-time updates, and notification services. The app achieved a **40% user retention rate** among beta users.
 
